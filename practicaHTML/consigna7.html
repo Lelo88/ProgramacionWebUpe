@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad"><br>
+        <label for="nacionalidad">Nacionalidad:</label><br>
+        <select id="nacionalidad" name="nacionalidad">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+            <!-- Agregar más opciones según sea necesario -->
+        </select><br>
+        <label for="fecha_inscripcion">Fecha de inscripción:</label><br>
+        <input type="date" id="fecha_inscripcion" name="fecha_inscripcion"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="beca">¿Posee beca de estudio?</label><br>
+        <input type="checkbox" id="beca" name="beca"><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
